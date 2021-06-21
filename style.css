@@ -6,7 +6,7 @@
     font: Arial 12px;
 }
 .corpo{
-    background-image: url(../img/fundo01.jpg);
+    background-image: url(./fundo01.jpg);
     background-attachment: fixed;
     height: 100vh;
 }
