@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font: Arial 12px;
+}
+.corpo{
+    background-image: url(./fundo01.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+}
+.centro{
+    width: 65vw;
+    margin: 0 auto;
+}
+.title{
+    background-color: rgb(235, 172, 90);
+    padding: 10px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    grid-area: t;
+} 
+.cont{
+    background-color: rgb(235, 172, 90);
+    margin: 0 auto;
+    width: 64.5vw;
+}
+.sec1{
+    padding: 0 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "t t"
+                         "s s"
+                         "l r";
+}
+.sec2{
+    padding: 0 0 0 10px;
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.lado{
+    padding: 10px 0 0 30px;
+}
+.tTop{
+    grid-area: s;
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+.l1{
+    grid-area: l;
+}
+.l2{
+    grid-area: r;
+}
+.st{
+    padding: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.st:hover{
+    color: red;
+}
+.receita{
+    padding: 10px;
+}
+img{
+    width: 300px;
+}
+.bolo{
+    margin: 10px;
+    padding: 10vh 0 0 2vw;
+}
